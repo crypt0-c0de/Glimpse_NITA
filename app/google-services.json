@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "851446188422",
+    "firebase_url": "https://glimpse-nita-default-rtdb.firebaseio.com",
+    "project_id": "glimpse-nita",
+    "storage_bucket": "glimpse-nita.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851446188422:android:d7b7d99ff22e0f333e0407",
+        "android_client_info": {
+          "package_name": "nita.krishna.glimpse_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851446188422-scbf71o95uq6hh69ejaq0t1kt1h4vkvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN4S1PzVHMJ8Scz_DKLKIxO34TtXt7FQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851446188422-scbf71o95uq6hh69ejaq0t1kt1h4vkvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851446188422:android:703baa5f763692363e0407",
+        "android_client_info": {
+          "package_name": "nita.krishna.glimpse_nita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851446188422-scbf71o95uq6hh69ejaq0t1kt1h4vkvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN4S1PzVHMJ8Scz_DKLKIxO34TtXt7FQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851446188422-scbf71o95uq6hh69ejaq0t1kt1h4vkvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Glimpse_NITA</string>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/roboto_bold</string>
+    <string name="light" tools:ignore="ReferenceType">@font/roboto_light</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/roboto_regular</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+
+    <string name="about_college">Institute is committed to develop highly competent young Engineers, Scientists, and Management Professionals to cater to the ever increasing techno-managerial needs of national and international standards fulfilling professional ethics and societal commitment. Presently the Institute offers eight UG courses and PG courses in several fields along with Post Doctoral Fellowships. This Institute is autonomous under NIT being act passed by the parliament.</string>
+</resources>

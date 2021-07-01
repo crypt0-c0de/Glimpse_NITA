@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navigation_video"
+        android:title="Video Lectures"/>
+
+    <item android:id="@+id/navigation_faculty"
+        android:title="Faculty"/>
+
+    <item android:id="@+id/navigation_ebook"
+        android:title="Ebooks"/>
+
+    <item android:id="@+id/navigation_website"
+        android:title="Website"/>
+
+    <item android:id="@+id/navigation_share"
+        android:title="Share"/>
+    <item android:id="@+id/navigation_developer"
+        android:title="Developer"/>
+
+</menu>
