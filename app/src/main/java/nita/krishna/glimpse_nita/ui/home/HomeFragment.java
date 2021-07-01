@@ -33,7 +33,7 @@ public class HomeFragment extends Fragment {
 
 
         sliderView = view.findViewById(R.id.sliderView);
-        images = new int[] {R.drawable.sl1,R.drawable.sl2,R.drawable.sl3,R.drawable.sl3,R.drawable.sl4,R.drawable.sl5};
+        images = new int[] {R.drawable.sl1,R.drawable.sl2,R.drawable.sl3,R.drawable.sl4,R.drawable.sl5};
         adapter = new SliderAdapter(images);
         sliderView.setSliderAdapter(adapter);
 

@@ -26,9 +26,11 @@ public class PdfViewerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pdf_viewer);
 
+        pdfView = findViewById(R.id.pdfView);
+
         url = getIntent().getStringExtra("pdfUrl");
 
-        pdfView = findViewById(R.id.pdfView);
+
 
         new PdfDownload().execute(url);
 
