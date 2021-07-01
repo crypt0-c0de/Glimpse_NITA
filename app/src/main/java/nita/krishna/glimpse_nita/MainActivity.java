@@ -9,6 +9,8 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.NavigationUI;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -25,6 +27,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private DrawerLayout drawerLayout;
     private ActionBarDrawerToggle toggle;
     private NavigationView navigationView;
+    String url;
+    Intent i;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,22 +66,40 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.navigation_video:
-                Toast.makeText(this, "Video Lectures", Toast.LENGTH_SHORT).show();
+                url = "https://www.youtube.com/";
+                i = new Intent();
+                i.setPackage("com.android.chrome");
+                i.setAction(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+//                Toast.makeText(this, "Video Lectures", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.navigation_faculty:
                 Toast.makeText(this, "Faculty", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.navigation_ebook:
-                Toast.makeText(this, "Ebook", Toast.LENGTH_SHORT).show();
+            case R.id.navigation_mis:
+                url = "https://mis.nita.ac.in/";
+                i = new Intent();
+                i.setPackage("com.android.chrome");
+                i.setAction(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+//                Toast.makeText(this, "MIS", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.navigation_website:
-                Toast.makeText(this, "Website", Toast.LENGTH_SHORT).show();
+                url = "https://www.nita.ac.in/";
+                i = new Intent();
+                i.setPackage("com.android.chrome");
+                i.setAction(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+//                Toast.makeText(this, "Website", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.navigation_share:
                 Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.navigation_developer:
-                Toast.makeText(this, "Developer", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Krishna Sahu", Toast.LENGTH_SHORT).show();
                 break;
         }
 

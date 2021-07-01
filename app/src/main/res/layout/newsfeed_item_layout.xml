@@ -19,7 +19,7 @@
             <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_width="36dp"
                 android:layout_height="36dp"
-                android:src="@drawable/faculty"/>
+                android:src="@drawable/nita_logo"/>
 
 
 

@@ -4,10 +4,11 @@
     android:layout_height="170dp"
     android:background="#F0A07C">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Name Here"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/nita_main_buiding"/>
 
 </LinearLayout>
 
