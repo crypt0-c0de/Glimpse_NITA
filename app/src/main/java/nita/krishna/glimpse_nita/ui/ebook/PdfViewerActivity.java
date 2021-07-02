@@ -2,23 +2,28 @@ package nita.krishna.glimpse_nita.ui.ebook;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ProgressBar;
 
 import com.github.barteksc.pdfviewer.PDFView;
 
 import java.io.BufferedInputStream;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.text.SimpleDateFormat;
 
 import nita.krishna.glimpse_nita.R;
 
 public class PdfViewerActivity extends AppCompatActivity {
 
-    private String url;
+    private String url = "";
     private PDFView pdfView;
 
     @Override
@@ -30,10 +35,7 @@ public class PdfViewerActivity extends AppCompatActivity {
 
         url = getIntent().getStringExtra("pdfUrl");
 
-
-
         new PdfDownload().execute(url);
-
     }
 
     private class PdfDownload extends AsyncTask<String , Void , InputStream> {
